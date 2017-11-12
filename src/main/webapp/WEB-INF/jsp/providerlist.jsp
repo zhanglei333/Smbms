@@ -8,7 +8,7 @@
             <span>供应商管理页面</span>
         </div>
         <div class="search">
-        	<form method="post" action="${pageContext.request.contextPath }/providerlist.html">
+        	<form method="post" action="${pageContext.request.contextPath }/provider.html">
 				<input name="method" value="query" type="hidden">
 				<input type="hidden" name="pageIndex" value="1"/>
 				<span>供应商编码：</span>
