@@ -3,7 +3,7 @@ var billObj;
 //订单管理页面上点击删除按钮弹出删除框(billlist.jsp)
 function deleteBill(obj){
 	$.ajax({
-		type:"POST",
+		type:"GET",
 		url:path+"/billdel.json",
 		data:{method:"delbill",billid:obj.attr("billid")},
 		dataType:"json",

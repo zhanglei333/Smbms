@@ -8,7 +8,7 @@
            <span>订单管理页面</span>
        </div>
        <div class="search">
-       <form method="post" action="${pageContext.request.contextPath }/billlist.html">
+       <form method="post" action="${pageContext.request.contextPath }/bill.html">
 			<input type="hidden" name="pageIndex" value="1"/>
 			<span>商品名称：</span>
 			<input name="queryProductName" type="text" value="${queryProductName }">
@@ -32,7 +32,7 @@
        		</select>
 			
 			 <input	value="查 询" type="submit" id="searchbutton">
-			 <a href="${pageContext.request.contextPath }/billadd.html">添加订单</a>
+			 <a href="${pageContext.request.contextPath }/billAdd.html">添加订单</a>
 		</form>
        </div>
        <!--账单表格 样式和供应商公用-->
